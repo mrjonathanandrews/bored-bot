@@ -1,0 +1,34 @@
+body {
+    /* borrowed from uigradients.com */
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #000046, #1CB5E0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #000046, #1CB5E0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Zen Antique', serif;
+    color: white;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: slategrey;
+    border: 1px solid darkgray;
+    cursor: pointer;
+}
+
+.fun {
+    /* borrowed from uigradients.com */
+    background: #870000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #870000, #190A05);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #870000, #190A05); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.fun-button {
+    background-color: #FFE0BD;
+    border: 1px solid #CCB397;
+}
